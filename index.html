@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Site</title>
+    <style>
+        body {
+            background-color: lightblue;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        #search-bar {
+            width: 60%;
+            padding: 10px;
+            border: 2px solid #ccc;
+            border-radius: 5px;
+            margin-top: 20px;
+            font-size: 16px;
+        }
+
+        #login-button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+            float: right;
+        }
+
+        #login-button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <input type="text" id="search-bar" placeholder="Search...">
+            <button id="login-button">Login</button>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Your shopping site content goes here -->
+    </div>
+
+    <script>
+        // JavaScript code to handle login button click
+        document.getElementById("login-button").addEventListener("click", function() {
+            // Redirect to index2.html
+            window.location.href = "login.html";
+        });
+    </script>
+</body>
+</html>
